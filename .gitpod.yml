@@ -1,0 +1,6 @@
+tasks:
+ - init: npm install -g browser-sync
+ - command: light-server -f *.js -f *.html
+ports:
+ - port: 3000
+   onOpen: open-preview

@@ -1,9 +1,9 @@
 /// @ts-check
 /// <reference path="global.d.ts" />
 
-"use strict";
+
 function setup() {
-    createCanvas(640, 480);
+    createCanvas(640,480);
 }
 
 function draw() {
@@ -13,5 +13,5 @@ function draw() {
     else {
         fill(255);
     }
-    ellipse(mouseX, mouseY, 80, 80);
+    ellipse(mouseX, mouseY, 50, 50);
 }
