@@ -1,33 +1,9 @@
-## Required setup steps BEFORE using the project
-1. Install yarn using the MSI OR chocolatey/homebrew, e.g `cinst yarn`
-1. `yarn global add typescript` (optional, can also install locally below)
+# P5JS Starter Project with Intellisense
 
-## Steps to create this folder
-1. Made directory p5ts
-2. `cd p5ts` 
-3. `yarn add @types/p5 --dev` // if you want to do local typescript, add that here
-4. `mkdir dist`
-6. `touch dist/index.html`
-7. `mkdir src`
-8. `touch src/index.ts`
-9. `tsc --init`
-10. Open tsconfig.json in editor and change module to `es6`, flag on `allowJs` and set `outDir` to `./dist`
-11. `git init`
-14. `touch .gitignore`
-15. open .gitignore and add `node_modules`
-16. `touch src/global.d.ts`
-17. Open global.d.ts and include text:
-    ```typescript
-    import module = require('p5');
-    import * as p5Global from 'p5/global' 
+In this project you can play with the [p5js](p5js.org) library. This library makes it very easy to create and draw on *drawing canvases* on web pages. You can read more about it at p5js.org.
 
-    export = module;
-    export as namespace p5;
-    declare global {
-        interface Window {
-            p5: typeof module,
-        }
-    }
-    ```
-    (code retreived from https://github.com/Gaweph/p5-typescript-starter/blob/master/global.d.ts)
+If you use this project as your start, and you use an intellisense-enabled code editor like [Visual Studio Code](code.visualstudio.com) or [Gitpod](http://www.gitpod.com) you will be able to hover your mouse over the various p5js functions to get some information about them, and you will also get autocomplete and other functionality.
 
+## Trying it out with GitPod
+
+To try out this project with gitpod, you can simply go to your Address Bar up :point_up: there, click inside, and add `gitpod.io/#` BEFORE the address bare. Gitpod will ask you to sign in with a GitHub id (you'll need to register if you haven't) and then it will create a full-fledged environment to play with this code.
