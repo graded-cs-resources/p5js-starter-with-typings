@@ -6,4 +6,4 @@ If you use this project as your start, and you use an intellisense-enabled code 
 
 ## Trying it out with GitPod
 
-To try out this project with gitpod, you can simply go to your Address Bar up :point_up: there, click inside, and add `gitpod.io/#` BEFORE the address bare. Gitpod will ask you to sign in with a GitHub id (you'll need to register if you haven't) and then it will create a full-fledged environment to play with this code.
+To try out this project with gitpod, you can simply go to your Address Bar up :point_up: there, click inside, and add `gitpod.io/#` BEFORE the address already there. Gitpod will ask you to sign in with a GitHub id (you'll need to register if you haven't) and then it will create a full-fledged environment to play with this code.
