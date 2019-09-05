@@ -1,0 +1,25 @@
+{
+  "name": "p5js_starter_with_intellisense",
+  "version": "1.0.0",
+  "description": "In this project you can play with the [p5js](p5js.org) library. This library makes it very easy to create and draw on *drawing canvases* on web pages. You can read more about it at p5js.org.",
+  "main": "index.js",
+  "dependencies": {
+    "p5": "^0.9.0"
+  },
+  "devDependencies": {
+    "@types/p5": "^0.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graded-cs-resources/p5js-starter-with-typings.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graded-cs-resources/p5js-starter-with-typings/issues"
+  },
+  "homepage": "https://github.com/graded-cs-resources/p5js-starter-with-typings#readme"
+}
