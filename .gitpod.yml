@@ -1,7 +1,6 @@
 tasks:
- - init: npm install -g browser-sync
- - init: npm install
- - command: browser-sync -f *.html -f *.js --no-open --no-ui
+ - init: npm install && npm install -g browser-sync
+   command: browser-sync -f *.html -f *.js --no-open --no-ui
 ports:
  - port: 3000
    onOpen: open-preview
