@@ -1,0 +1,8 @@
+{
+  "files.exclude": {
+    ".git*": true,
+    "global.d.ts": true,
+    "node_modules": true,
+    "package*.json": true
+  }
+}
