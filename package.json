@@ -7,10 +7,12 @@
     "p5": "^0.9.0"
   },
   "devDependencies": {
-    "@types/p5": "^0.9.0"
+    "@types/p5": "^0.9.0",
+    "browser-sync": "^2.26.7"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync -f *.html -f *.js --no-open --no-ui --listen 0.0.0.0"
   },
   "repository": {
     "type": "git",

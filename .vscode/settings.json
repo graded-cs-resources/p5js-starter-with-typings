@@ -1,10 +1,12 @@
 {
   "files.exclude": {
-    ".git*": true,
     "global.d.ts": true,
-    "node_modules": true,
-    "package*.json": true,
     ".theia": true,
-    ".vscode": true
+    ".vscode": true,
+    ".gitignore": true,
+    ".gitpod.yml": true,
+    "package-lock.json": true,
+    "package.json": true,
+    "node_modules": true
   }
 }
