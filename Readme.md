@@ -16,11 +16,11 @@ I have automated this repository as much as possible, but you may need this info
 
 * In case the web preview doesn't load or crashes, you should be able to start it up by clicking "Terminal -> Run Task" and choosing `shell:serve` from the popup menu.
 
-* Many of the files that make this repository work have been *hidden* in gitpod to keep it as simple-looking for you as possible. They are still there, just invisible. To make them visible for editing (or fixing), you can use "File->Settings->Open Preferences" then choose the "Workspace" tab. There is a setting there that hides the various files from the editor; simply remove the files from that setting and they will reappear. The settings that control gitpod are in the `.theia` directory.
+* Many of the files that make this repository work have been *hidden* in gitpod to keep it as simple-looking for you as possible. They are still there, just invisible. To make them visible for editing (or fixing), you can look for a "Hidden Items" panel in the file explorer. If it's not there, use "File->Preferences->Workspace Settings" to see the list of hidden files and adjust as needed.
 
 ## Using VS Code on a local computer instead
 
-Though this repository was really designed to be used in GitPod, you could also download it locally and use it in Visual Studio Code. To get it working, you would need to (1) Install NodeJS and npm, (2) install VS code, (3) use your git tool of choice to clone this repository, (4) run "npm install" in the project folder, and (5) install a browser extension to view the code, such as Live Server.
+Though this repository was really designed to be used in GitPod, you could also download it locally and use it in Visual Studio Code. To get it working, you would need to (1) Install NodeJS and npm, (2) install VS code, (3) use your git tool of choice to clone this repository, (4) run "npm install" in the project folder (there is a task for that in Terminal->Tasks). You can still use the "serve" task from the terminal to run the code in a browser.
 
 ## Useful Links to learn more
 

@@ -4,8 +4,15 @@ import * as p5Global from 'p5/global'
 
 export = module;
 export as namespace p5;
+
 declare global {
+    function loadSound(
+        path: string | any[],
+        successCallback?: (...args: any[]) => any,
+        errorCallback?: (...args: any[]) => any,
+        whileLoading?: (...args: any[]) => any
+    ): p5.SoundFile;
     interface Window {
-        p5: typeof module,
+        p5: typeof module;
     }
 }
