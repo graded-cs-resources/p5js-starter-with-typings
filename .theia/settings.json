@@ -5,9 +5,6 @@
     "global.d.ts": true,
     "package-lock.json": true,
     "package.json": true,
-    ".git": true,
-    ".vscode": true,
-    ".theia": true,
-    ".gitpod.yml": true
+    ".git": true
   }
 }

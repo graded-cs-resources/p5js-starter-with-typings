@@ -4,13 +4,15 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "npm",
-            "script": "serve-vscode",
+            "type": "shell",
+            "label": "serve",
+            "command": "npm run serve-gitpod",
             "problemMatcher": []
         },
         {
-            "type": "npm",
-            "script": "install",
+            "type": "shell",
+            "label": "npm install",
+            "command": "npm install",
             "problemMatcher": []
         }
     ]

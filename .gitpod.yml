@@ -1,8 +1,12 @@
 tasks:
  - init: npm install
-   command: npm run serve
+   command: npm run gitpod-build-and-serve
 ports:
  - port: 3000
    onOpen: open-preview
  - port: 3001
    onOpen: ignore
+
+vscode:
+  extensions:
+    - devine-davies.make-hidden@3.0.3:z0q/3Eg7Ow3L9ocOAMHfVA==
