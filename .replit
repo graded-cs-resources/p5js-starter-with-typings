@@ -1,5 +1,5 @@
 
-hidden = [".config",".git",".theia",".vscode",".gitignore",".gitpod.yml","global.d.ts"]
+hidden = [".config",".git",".theia",".vscode",".gitignore",".gitpod.yml","global.d.ts","package.json","package-lock.json"]
 run = "npm run serve-gitpod"
 
 [[hints]]

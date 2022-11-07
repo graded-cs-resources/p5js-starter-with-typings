@@ -1,15 +1,16 @@
 /// @ts-check
 /// <reference path="global.d.ts" />
 "use strict";
-// DO NOT TOUCH THE ABOVE CODE IF YOU WANT THE MAGIC!
-// (You can remove or add an extra slash to the top @ts-check line if you want things to be a bit less strict)
 
-/** This function runs as soon as the p5 library loads */
+// DO NOT TOUCH THE ABOVE CODE IF YOU WANT THE MAGIC!
+
+/** This function runs as soon as the p5 library loads **/
 function setup() {
-  createCanvas(400, 600);
+  createCanvas(450, 300);
   // set up some settings to make everything centered by default
   textAlign(CENTER, CENTER);
   rectMode(CENTER);
+  background("lightgray")
 }
 
 /** This function runs in an infinitely repeating loop */
@@ -22,11 +23,12 @@ function draw() {
     stroke("black");
   }
 
-  ellipse(mouseX, mouseY, 80, 80);
+  ellipse(mouseX, mouseY, 60, 60);
+
 
   writeText();
 }
-/* This function draws our welcome text and its rectangle background */
+/** This function draws our welcome text and its rectangle background **/
 function writeText() {
   fill("pink");
   stroke("black");
