@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@types/p5": "^0.9.0",
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.27.10"
   },
   "scripts": {
     "serve-gitpod": "browser-sync -f *.html -f *.js --no-open --no-ui --listen 0.0.0.0",
