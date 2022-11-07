@@ -6,7 +6,8 @@
 
 /** This function runs as soon as the p5 library loads **/
 function setup() {
-  createCanvas(450, 300);
+  let canvas = createCanvas(450, 300);
+  canvas.style("border: 1px solid black");
   // set up some settings to make everything centered by default
   textAlign(CENTER, CENTER);
   rectMode(CENTER);
@@ -28,6 +29,8 @@ function draw() {
 
   writeText();
 }
+
+
 /** This function draws our welcome text and its rectangle background **/
 function writeText() {
   fill("pink");
